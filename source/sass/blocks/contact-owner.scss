@@ -1,0 +1,8 @@
+.contact-owner {
+  background: $color-gray;
+  padding-bottom: 30px;
+
+  @include above-desktop() {
+    padding-bottom: 113px;
+  }
+}

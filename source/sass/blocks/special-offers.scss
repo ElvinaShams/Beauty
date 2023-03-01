@@ -1,0 +1,40 @@
+.special-offers__container {
+  background: $color-gray;
+  padding-bottom: 30px;
+
+  @include above-tablet() {
+    padding-bottom: 70px;
+  }
+}
+
+.special__offers {
+  width: 320px;
+  padding-top: 40px;
+  margin: 0 auto;
+
+  @include above-tablet() {
+    width: 750px;
+    padding-top: 80px;
+  }
+
+  @include above-desktop() {
+    width: 1110px;
+  }
+}
+
+.special__offers-title {
+  text-align: center;
+  margin: 0;
+  margin-bottom: 38px;
+}
+
+.special__offers-list {
+  @include above-tablet() {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @include above-desktop() {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}

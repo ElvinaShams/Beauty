@@ -1,0 +1,31 @@
+.beauty-sphere {
+  min-width: 320px;
+  margin: 0 auto;
+}
+
+.beauty-sphere__list {
+  width: 320px;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  padding: 15px 0;
+
+  @include above-tablet() {
+    width: 715px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.beauty-sphere__item {
+  font-size: 16px;
+  line-height: 19px;
+  padding: 10px 20px;
+  text-decoration: none;
+  list-style-type: none;
+
+  @include above-tablet() {
+    padding: 15px 20px;
+  }
+}

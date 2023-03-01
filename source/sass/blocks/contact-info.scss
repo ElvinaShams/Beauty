@@ -1,0 +1,125 @@
+.contact-info {
+  display: block;
+  width: 320px;
+  margin: 0 auto;
+
+  @include above-tablet() {
+    min-width: 540px;
+  }
+
+  @include above-desktop() {
+    width: 1110px;
+  }
+}
+
+.contact-info__list {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #ffffff;
+  font-family: $default-font;
+
+  @include above-desktop() {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.contact-info__item {
+  width: 250px;
+  background: $color-green;
+  margin: 0 auto;
+  text-decoration: none;
+  list-style-type: none;
+  padding: 20px;
+  margin-bottom: 20px;
+
+  @include above-tablet() {
+    width: 450px;
+    padding: 35px 40px;
+  }
+
+  @include above-desktop() {
+    width: 540px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.contact-info__title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  margin-bottom: 25px;
+
+  @include above-desktop() {
+    text-align: start;
+  }
+}
+
+.contact-info__description {
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.05em;
+
+  @include above-desktop() {
+    text-align: start;
+    margin: 0;
+    margin-bottom: 25px;
+  }
+}
+
+.contact-info__email {
+  padding: 0;
+}
+
+.сontact-info__field {
+  border-radius: 30px;
+  border: none;
+  padding: 9px 17px;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  margin-bottom: 15px;
+
+  @include above-desktop() {
+    text-align: start;
+    display: block;
+    width: 100%;
+  }
+}
+
+.сontact-info__image {
+  display: none;
+
+  @include above-desktop() {
+    display: block;
+  }
+}
+
+.contact-info__address {
+  text-align: center;
+  padding: 7px 25px;
+  margin-bottom: 15px;
+  border-radius: 30px;
+  border: 1px solid #ffffff;
+
+  @include above-desktop() {
+    width: 170px;
+  }
+}
+
+.contact-info__map {
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.contact-info__item-map {
+  @include above-desktop() {
+    display: block;
+  }
+}

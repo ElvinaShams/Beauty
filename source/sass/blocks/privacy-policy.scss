@@ -1,0 +1,21 @@
+.privacy-policy {
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.privacy-policy__text {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  @include above-tablet() {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-right: 10px;
+  }
+
+  @include above-desktop() {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+}

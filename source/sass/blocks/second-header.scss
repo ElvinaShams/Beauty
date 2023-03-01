@@ -1,0 +1,36 @@
+.second-header {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 20px 0;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid $color-gray;
+}
+
+.second-header__logo {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 10px;
+}
+
+.second-header__logo-image {
+  padding-right: 18px;
+}
+
+.second-header__contacts {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.second-header__logo-title {
+  font-family: $default-font;
+  font-size: 36px;
+  color: $color-green;
+  margin: 0;
+}

@@ -1,0 +1,14 @@
+.chair__container {
+  background-image: url("../img/Frame 2.jpg");
+  height: 604px;
+  width: 100%;
+  background-position: 62%;
+  background-repeat: no-repeat;
+
+  @include above-tablet() {
+    background-position: 50%;
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+}

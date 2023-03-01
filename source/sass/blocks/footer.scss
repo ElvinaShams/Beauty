@@ -1,0 +1,27 @@
+.footer {
+  background: $color-gray;
+}
+
+.footer__wrapper {
+  width: 320px;
+  margin: 0 auto;
+
+  @include above-tablet() {
+    min-width: 768px;
+  }
+
+  @include above-desktop() {
+    width: 1110px;
+  }
+}
+
+.footer__contacts {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+  @include above-tablet() {
+    display: block;
+  }
+}
